@@ -1,7 +1,7 @@
 +++
-title =  "Setting up a mysql server on ubuntu"
+title =  "Install a mysql server on ubuntu"
 date = "2024-06-15"
-description = "How To automate posting to social sites"
+description = "MYSQL buntu"
 author = "Justin Napolitano"
 tags = ['python', "mysql","databases"]
 images = ["images/featured-caesar.jpg"]
