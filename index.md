@@ -1,0 +1,73 @@
++++
+title =  "Setting up a mysql server on ubuntu"
+date = "2024-06-15"
+description = "How To automate posting to social sites"
+author = "Justin Napolitano"
+tags = ['python', "mysql","databases"]
+images = ["images/featured-caesar.jpg"]
++++
+
+
+## Why
+
+1. I am working on an autoposting tool for social sites.
+2. in order to complete that i want a db to log the metadata of my posts
+   
+
+### Parts of this series
+
+1. [part 1](https://jnapolitano.com/en/posts/hugo-social-publisher/)
+2. [part 2](https://jnapolitano.com/en/posts/python-rss-reader/)
+
+
+
+## MYSQL Resources
+
+* [APT install guide](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/)
+* [MYSQL config guide](https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing)
+
+
+## Install
+
+### Download the config files
+
+go to this link and download the script.
+
+```https://dev.mysql.com/downloads/repo/apt/```
+
+### Install the release package with dpkg
+
+> note that the w.x.y.z will change according to the release package
+
+run 
+
+```bash
+
+sudo dpkg -i mysql-apt-config_w.x.y-z_all.deb
+```
+
+in my case i ran 
+
+```bash
+
+sudo dpkg -i mysql-apt-config_0.8.30-1_all.deb 
+
+```
+
+### Update apt and install
+
+so the package above just added the mysql repository to the apt package manager. to actually install we will run 
+
+```bash
+sudo apt-get update &&  sudo apt-get install mysql-server
+```
+
+### Start mysql
+
+mysql will likely alrady be running post install. Check the status by running
+
+```bash
+
+systemctl status mysql
+
+```
