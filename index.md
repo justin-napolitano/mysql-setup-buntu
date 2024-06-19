@@ -1,9 +1,8 @@
 +++
-title =  "Install a mysql server on ubuntu"
-date = "2024-06-15"
+title =  "Install mysql server on ubuntu"x`
 description = "MYSQL buntu"
 author = "Justin Napolitano"
-tags = ['python', "mysql","databases"]
+tags = ['linux','bash', "mysql","databases"]
 images = ["images/featured-caesar.jpg"]
 +++
 
@@ -25,6 +24,7 @@ images = ["images/featured-caesar.jpg"]
 
 * [APT install guide](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/)
 * [MYSQL config guide](https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing)
+* [Post Install configuration](https://dev.mysql.com/doc/refman/8.4/en/postinstallation.html)
 
 
 ## Install
