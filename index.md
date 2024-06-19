@@ -1,5 +1,5 @@
 +++
-title =  "Install mysql server on ubuntu"
+title =  "Install MySQL Server on Ubuntu"
 description = "MYSQL buntu"
 author = "Justin Napolitano"
 tags = ['linux','bash', "mysql","databases"]
