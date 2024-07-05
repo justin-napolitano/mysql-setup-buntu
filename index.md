@@ -4,6 +4,7 @@ description = "MYSQL buntu"
 author = "Justin Napolitano"
 tags = ['linux','bash', "mysql","databases"]
 images = ["images/featured-caesar.jpg"]
+date = "2024-06-28"
 +++
 
 
