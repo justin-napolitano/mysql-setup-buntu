@@ -18,6 +18,12 @@ seoSecondaryKeywords:
   - mysql apt repository
   - mysql service verification
 seoOptimized: true
+topicFamily: devtools
+topicFamilyConfidence: 0.9
+topicFamilyNotes: >-
+  The post focuses on installing and configuring MySQL Server on Ubuntu including repository setup
+  and package installation, which fits well under development environment setup and configuration as
+  described in the 'Devtools' family.
 ---
 
 # Installing MySQL Server on Ubuntu: A Practical Reference
@@ -73,3 +79,4 @@ This command provides the current status and confirms that the server is operati
 ## Conclusion
 
 This repository and its documentation serve as a concise, practical guide for setting up MySQL Server on Ubuntu using the official MySQL APT repository. It is designed to be a technical reference for developers returning to the project or setting up similar environments, emphasizing clarity and reproducibility over abstraction or embellishment.
+
