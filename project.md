@@ -1,19 +1,28 @@
 ---
 slug: github-mysql-setup-buntu
 id: github-mysql-setup-buntu
-title: mysql-setup-buntu
+title: MySQL Server Installation Guide for Ubuntu Systems
 repo: justin-napolitano/mysql-setup-buntu
 githubUrl: https://github.com/justin-napolitano/mysql-setup-buntu
 generatedAt: '2025-11-24T21:35:39.487Z'
 source: github-auto
 summary: >-
-  A straightforward guide and script collection for installing and configuring
-  MySQL Server on Ubuntu. This repository provides step-by-step instructions to
-  set up MySQL using the official MySQL APT repository.
-tags: []
-seoPrimaryKeyword: ''
-seoSecondaryKeywords: []
-seoOptimized: false
+  A practical guide for installing and configuring MySQL Server on Ubuntu using
+  the official MySQL APT repository.
+tags:
+  - mysql
+  - ubuntu
+  - apt
+  - bash scripting
+  - linux
+seoPrimaryKeyword: mysql server installation ubuntu
+seoSecondaryKeywords:
+  - ubuntu mysql setup
+  - install mysql ubuntu
+  - mysql apt repository
+  - mysql service verification
+  - bash script mysql
+seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
 kind: project
